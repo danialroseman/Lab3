@@ -8,7 +8,7 @@
 .main{
     width: 100%;
     height: 100vh;
-    background-image: url(/flume.jpg);
+    background-image: url(/waves.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -46,12 +46,12 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: green;
+    color: #f9004d;
     transition: .45;
 }
 
 .button{
-    background-color: green;
+    background-color: #f9004d;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -74,19 +74,19 @@ nav ul li a:hover{
 }
 
 h1{
-    color: black;
+    color: beige;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
 h3{
-    color: black;
+    color: beige;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
 h4{
-    color: black;
+    color: beige;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -106,11 +106,175 @@ h4{
     width: 550px;
 
 }
-.main{
+.abtme{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.about-content h2{
+    color: beige;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-content h5{
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-content p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/*skills*/
+
+.skills{
+    background: #191919;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+
+.stitle h2{
+    color: beige;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h5{
+    font-size: 20px;
+    color: beige;
+    margin-bottom: 15px;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: beige ;
+}
+
+.pra p{
+    color: #fcfc;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 25px;
+
+}
+
+/*contact cards*/
+
+.contactme{
+    width: 100%;
+    background: #191919;
+    padding: 100px 0px;
+}
+
+.contactme .btn2{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.contactme .btn2:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.contacttitle h2{
+    color: beige;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.contactcard{
+    height: 200px;
+    width: 250px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contactcard h5{
+    font-size: 20px;
+    color: beige;
+    margin-bottom: 15px;
+}
+
+.contactcard i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: beige ;
+}
+
+.info p{
+    color: #fcfc;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 25px;
+
+}
+
+.info a{
+    color: #fcfcfc;
+    text-decoration: none;
+    transition: color 0.2, text-decoration 0.2;
+}
+
+.info a:hover{
+    color: #f9004d;
+    text-decoration: wavy;
 }
